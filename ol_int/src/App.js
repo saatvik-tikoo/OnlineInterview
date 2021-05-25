@@ -140,7 +140,8 @@ function App() {
         />
         <h3>Question 2</h3>
         <p>
-          Check if a given tree is a Binary Search Tree
+          Check if a given tree is a Binary Search Tree. Assume the Node structure as
+          <br/>Node.val as integer and Node.next as pointer;
         </p>
         <CodeMirror
           value={cm2}
