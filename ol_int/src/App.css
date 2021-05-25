@@ -1,0 +1,98 @@
+body {
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+}
+
+.sign-in, .home-page, .thank-you {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+
+}
+
+.sign-in label {
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.sign-in input {
+  padding: 2px;
+  margin: 20px;
+  background: transparent;
+  width: 300px;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  border: 1px solid white;
+  background: transparent ;
+  font-size: 25px;
+  width: 200px;
+  height: 70px;
+  color: white;
+}
+
+.sign-in input::placeholder {
+  color: white;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  margin: 70px 150px 10px;
+}
+.home-page {
+  height: 1vp;
+}
+.home-page h3 {
+  margin: 50px;
+  margin-bottom: 25px;
+  font-family: monospace;
+}
+
+.home-page h2 {
+  padding: 30px;
+  margin: 10px 10%;
+  font-family: monospace;
+  height: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.test-container {
+  background-color: white;
+  padding: 30px;
+  margin: 2%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.test-container button {
+  border: 1px solid black;
+  background: transparent;
+  font-size: 25px;
+  width: 200px;
+  height: 70px;
+  color: black;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+button:hover  {
+  background-color: rgb(0, 195, 255);
+  color: aliceblue;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
